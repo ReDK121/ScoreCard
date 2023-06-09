@@ -1,0 +1,243 @@
+/*Styling of the main */
+body{
+    background-color: #ECF2FF;
+    height:1080px;
+    width: 1440px; 
+}
+#main{
+    display: flex;
+    position: absolute;
+    width: 736px;
+    height: 512px;
+    left: 352px;
+    top: 284px;
+    background-color: white;
+    border-radius: 35px;
+}
+/* Styling the blueCard */
+.blueCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-image: linear-gradient(#7755FF 0%, #6943FF 0.01%, #2F2CE9 100% );
+    border-radius: 35px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+
+.roundScore{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(#4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    top: 104px;
+}
+
+#results{
+    margin-top:38px ;
+}
+
+#rating{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 134px;
+    width:260px;
+    bottom: 46px;
+    top: 332px;
+}
+
+#roundText{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:99px;
+    width: 81px;
+}
+
+.blueCard #results{
+    margin-top: 20px;
+}
+
+#resultText{
+    justify-content: center;
+    font-family: 'Hanken Grotesk';
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 31.27px;
+    text-align: left;
+    vertical-align: top;
+    color:#CAC9FF;
+}
+
+.blueCard h3{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 70px;
+    padding-bottom: 0px;
+    padding-top: 55px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#rating h1{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 14px;
+}
+.blueCard #rating p{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+    font-style: medium;
+    line-height: 100%;
+    vertical-align: top;
+    text-align:center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+
+.blueCard .roundScore h4{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 0px;
+    margin:0px;
+    padding-bottom: 46px;
+}
+
+
+
+/*Styling of the score card */
+.scoreCard{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 35px;
+    border-bottom-right-radius:35px;
+}
+
+.scoreCard h2{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    color: hsl(224, 30%, 27%);
+}
+
+#summaryBox{
+    position: absolute;
+    top: 20px;
+    right: 224px;
+}
+
+.box{
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width:288px;
+    height: 272px;
+    position: absolute;
+    top: 97px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 288px;
+    height: 56px;
+    vertical-align: center;
+    border-radius: 10px;
+    margin-bottom: 16px;;
+}
+
+
+
+.scoreCard h3{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    color:hsla(223, 30%, 27%, 0.5);
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+#blueTitle, #redTitle, #yellowTitle, #greenTitle{
+    font-weight: 500;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 55px;
+}
+.scoreCard span{
+    color: hsl(224, 30%, 27%);
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.row img{
+    padding-left: 15px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#red{
+    background-color: hsla(0, 100%, 67%,0.05);
+}
+#yellow{
+    background-color: hsla(39, 100%, 56%, 0.05);
+}
+#green{
+    background-color: hsla(166, 100%, 37%,0.05);
+}
+#blue{
+    background-color: hsla(234, 85%, 45%,0.05);
+}
+
+#redTitle{
+    color: hsl(0, 100%, 67%);
+}
+#yellowTitle{
+    color: hsl(39, 100%, 56%);
+}
+#greenTitle{
+    color: hsl(166, 100%, 37%);
+}
+#blueTitle{
+    color: hsl(234, 85%, 45%);
+}
+
+/* Styling the button */
+button{
+    position:absolute;
+    height: 56px;
+    width: 288px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.45px;
+    border-radius: 128px;
+    border: none;
+    top: 410px;
+}
